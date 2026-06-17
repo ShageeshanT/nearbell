@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "NearBell",
+  "version": "0.1.0",
+  "description": "Custom destination proximity alerts.",
+  "permissions": [
+    "notifications",
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.google.com/maps/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/maps/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

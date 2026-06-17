@@ -1,0 +1,2 @@
+import { evaluateSession } from '../src/engine.js';
+export function simulateRoute(startEta, endEta, offsets) { let session = { lastEtaMinutes: startEta, firedOffsets: [], destination: 'Demo destination' }; const timeline = []; for (let eta = startEta - 1; eta >= endEta; eta -= 1) { const result = evaluateSession(session, { etaMinutes: eta, destination: 'Demo destination' }, offsets); session = result.session; timeline.push({ eta, alerts: result.alerts }); } return timeline; }

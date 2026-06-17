@@ -1,0 +1,1 @@
+export function isWithinQuietHours(date, quietHours) { if (!quietHours) return false; const hour = date.getHours(); const { startHour, endHour } = quietHours; return startHour < endHour ? hour >= startHour && hour < endHour : hour >= startHour || hour < endHour; }

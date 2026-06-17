@@ -1,0 +1,15 @@
+{
+  "name": "nearbell",
+  "version": "0.1.0",
+  "description": "Custom arrival alerts for Google Maps style navigation sessions.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/build.js",
+    "lint": "node scripts/lint.js"
+  },
+  "keywords": ["maps", "navigation", "alerts", "extension", "timer"],
+  "author": "ShageeshanT",
+  "license": "MIT",
+  "devDependencies": {}
+}

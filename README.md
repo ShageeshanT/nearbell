@@ -2,19 +2,24 @@
 
 NearBell is a browser extension concept for customizable destination proximity alerts during Google Maps style navigation sessions.
 
-It is designed for people who want a timer-like safety net when travelling: ring 15 minutes before arrival, ring again 5 minutes before, or use any custom alert schedule.
+It works like a smart route timer: when your destination is getting close, NearBell rings at the times you choose, such as 15 minutes before arrival and again at 5 minutes.
 
-## Core idea
+## Features
 
-- Detect a navigation session when a route is active.
-- Track remaining ETA and distance from page data or user-provided route state.
-- Trigger customizable alerts before arrival.
-- Support presets for commuting, delivery, trips, pickups, and sleep-on-bus survival mode.
+- Custom alert offsets
+- Sensible travel presets
+- Browser notification payloads
+- Local settings model
+- Google Maps content-script boundary
+- Demo route simulator
+- Tests for the core alert engine
 
-## Status
+## Quick start
 
-Early MVP scaffold. The current repo focuses on extension architecture, alert scheduling logic, settings models, tests, and documentation.
+```bash
+npm test
+npm run lint
+npm run build
+```
 
-## Project name
-
-NearBell: because it rings when you are near. Clean, useful, and not named like a startup that raised funding from a confused pigeon.
+Then load `dist/extension` as an unpacked Chrome extension.

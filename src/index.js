@@ -29,3 +29,4 @@ export * from './modeCopy.js';
 export * from './alertTelemetry.js';
 export * from './keyboardShortcuts.js';
 export * from './favoriteDestination.js';
+export * from './exportSettings.js';

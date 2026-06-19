@@ -24,3 +24,4 @@ export * from './alertPlan.js';
 export * from './sessionAge.js';
 export * from './mapHost.js';
 export * from './etaSampleBuffer.js';
+export * from './routeChange.js';

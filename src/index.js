@@ -27,3 +27,4 @@ export * from './etaSampleBuffer.js';
 export * from './routeChange.js';
 export * from './modeCopy.js';
 export * from './alertTelemetry.js';
+export * from './keyboardShortcuts.js';

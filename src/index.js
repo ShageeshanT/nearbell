@@ -21,3 +21,4 @@ export * from './privacyMode.js';
 export * from './retryBackoff.js';
 export * from './arrivalWindow.js';
 export * from './alertPlan.js';
+export * from './sessionAge.js';

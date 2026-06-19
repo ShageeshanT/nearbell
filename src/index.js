@@ -30,3 +30,4 @@ export * from './alertTelemetry.js';
 export * from './keyboardShortcuts.js';
 export * from './favoriteDestination.js';
 export * from './exportSettings.js';
+export * from './importSettings.js';

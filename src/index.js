@@ -12,3 +12,4 @@ export * from './notificationTitle.js';
 export * from './routeId.js';
 export * from './minuteWindow.js';
 export * from './permissionState.js';
+export * from './soundLabel.js';

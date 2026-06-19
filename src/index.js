@@ -7,3 +7,4 @@ export { DEFAULT_SETTINGS, mergeSettings } from './settings.js';
 export * from './arrivalConfidence.js';
 export * from './etaFormatter.js';
 export * from './alertDeduper.js';
+export * from './safeNumber.js';

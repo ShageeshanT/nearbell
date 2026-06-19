@@ -25,3 +25,4 @@ export * from './sessionAge.js';
 export * from './mapHost.js';
 export * from './etaSampleBuffer.js';
 export * from './routeChange.js';
+export * from './modeCopy.js';

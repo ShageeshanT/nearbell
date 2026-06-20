@@ -41,3 +41,4 @@ export * from './routeShareText.js';
 export * from './offsetLabel.js';
 export * from './historyEntry.js';
 export * from './settingsVersion.js';
+export * from './routeModeIcon.js';

@@ -47,3 +47,4 @@ export * from './minutesFromSeconds.js';
 export * from './distanceLabel.js';
 export * from './arrivalTone.js';
 export * from './routeCacheKey.js';
+export * from './notificationBody.js';

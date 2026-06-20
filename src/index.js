@@ -34,3 +34,4 @@ export * from './importSettings.js';
 export * from './alertPriority.js';
 export * from './batteryHint.js';
 export * from './destinationInitials.js';
+export * from './etaDelta.js';

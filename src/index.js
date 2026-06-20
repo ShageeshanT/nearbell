@@ -48,3 +48,4 @@ export * from './distanceLabel.js';
 export * from './arrivalTone.js';
 export * from './routeCacheKey.js';
 export * from './notificationBody.js';
+export * from './trackingState.js';

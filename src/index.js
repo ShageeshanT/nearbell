@@ -39,3 +39,4 @@ export * from './snoozeUntil.js';
 export * from './quietHoursLabel.js';
 export * from './routeShareText.js';
 export * from './offsetLabel.js';
+export * from './historyEntry.js';

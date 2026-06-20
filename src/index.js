@@ -45,3 +45,4 @@ export * from './routeModeIcon.js';
 export * from './permissionAction.js';
 export * from './minutesFromSeconds.js';
 export * from './distanceLabel.js';
+export * from './arrivalTone.js';

@@ -44,3 +44,4 @@ export * from './settingsVersion.js';
 export * from './routeModeIcon.js';
 export * from './permissionAction.js';
 export * from './minutesFromSeconds.js';
+export * from './distanceLabel.js';

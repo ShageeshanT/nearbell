@@ -40,3 +40,4 @@ export * from './quietHoursLabel.js';
 export * from './routeShareText.js';
 export * from './offsetLabel.js';
 export * from './historyEntry.js';
+export * from './settingsVersion.js';

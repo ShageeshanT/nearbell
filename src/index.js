@@ -32,3 +32,4 @@ export * from './favoriteDestination.js';
 export * from './exportSettings.js';
 export * from './importSettings.js';
 export * from './alertPriority.js';
+export * from './batteryHint.js';

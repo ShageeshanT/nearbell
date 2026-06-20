@@ -46,3 +46,4 @@ export * from './permissionAction.js';
 export * from './minutesFromSeconds.js';
 export * from './distanceLabel.js';
 export * from './arrivalTone.js';
+export * from './routeCacheKey.js';

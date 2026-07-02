@@ -60,3 +60,4 @@ export * from './alertWindowLabel.js';
 export * from './routePace.js';
 export * from './sessionFreshness.js';
 export * from './notificationTag.js';
+export * from './vibrationPattern.js';

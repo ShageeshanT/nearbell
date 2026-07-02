@@ -66,3 +66,4 @@ export * from './arrivalNudge.js';
 export * from './silentModeCopy.js';
 export * from './permissionBanner.js';
 export * from './routeSourceLabel.js';
+export * from './destinationHint.js';

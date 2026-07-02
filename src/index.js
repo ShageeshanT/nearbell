@@ -51,3 +51,4 @@ export * from './notificationBody.js';
 export * from './trackingState.js';
 export * from './alertProgress.js';
 export * from './routeSummaryLine.js';
+export * from './routeDelayCopy.js';

@@ -58,3 +58,4 @@ export * from './alertLeadTime.js';
 export * from './nextAlertOffset.js';
 export * from './alertWindowLabel.js';
 export * from './routePace.js';
+export * from './sessionFreshness.js';

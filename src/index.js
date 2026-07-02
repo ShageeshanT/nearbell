@@ -63,3 +63,4 @@ export * from './notificationTag.js';
 export * from './vibrationPattern.js';
 export * from './routeMilestone.js';
 export * from './arrivalNudge.js';
+export * from './silentModeCopy.js';

@@ -56,3 +56,4 @@ export * from './routeEarlyCopy.js';
 export * from './etaUrgency.js';
 export * from './alertLeadTime.js';
 export * from './nextAlertOffset.js';
+export * from './alertWindowLabel.js';

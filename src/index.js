@@ -74,3 +74,4 @@ export * from './routeResumeCopy.js';
 export * from './etaStability.js';
 export * from './routeRisk.js';
 export * from './alertReadiness.js';
+export * from './tripMemory.js';

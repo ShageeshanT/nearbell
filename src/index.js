@@ -82,3 +82,4 @@ export * from './arrivalWindowCopy.js';
 export * from './permissionRecovery.js';
 export * from './destinationAlias.js';
 export * from './alertQueue.js';
+export * from './rideModeCopy.js';

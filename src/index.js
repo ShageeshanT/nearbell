@@ -76,3 +76,4 @@ export * from './routeRisk.js';
 export * from './alertReadiness.js';
 export * from './tripMemory.js';
 export * from './arrivalBuffer.js';
+export * from './alertEscalation.js';

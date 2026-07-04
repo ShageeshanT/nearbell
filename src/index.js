@@ -78,3 +78,4 @@ export * from './tripMemory.js';
 export * from './arrivalBuffer.js';
 export * from './alertEscalation.js';
 export * from './routeTrust.js';
+export * from './arrivalWindowCopy.js';

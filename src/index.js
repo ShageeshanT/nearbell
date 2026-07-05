@@ -90,3 +90,4 @@ export * from './routeHealth.js';
 export * from './arrivalRiskCopy.js';
 export * from './batteryMode.js';
 export * from './mapProviderLabel.js';
+export * from './tripSummary.js';

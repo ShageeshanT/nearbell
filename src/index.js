@@ -84,3 +84,4 @@ export * from './destinationAlias.js';
 export * from './alertQueue.js';
 export * from './rideModeCopy.js';
 export * from './etaJitter.js';
+export * from './tripPhase.js';

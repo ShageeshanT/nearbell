@@ -86,3 +86,4 @@ export * from './rideModeCopy.js';
 export * from './etaJitter.js';
 export * from './tripPhase.js';
 export * from './alertSilenceReason.js';
+export * from './routeHealth.js';

@@ -88,3 +88,4 @@ export * from './tripPhase.js';
 export * from './alertSilenceReason.js';
 export * from './routeHealth.js';
 export * from './arrivalRiskCopy.js';
+export * from './batteryMode.js';

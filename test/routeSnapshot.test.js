@@ -1,8 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { createRouteSnapshot, isRouteActive } from '../src/routeSnapshot.js';
+import { routeSnapshotStatus } from '../src/routeSnapshot.js';
 
-test('route snapshot model', async () => {
-assert.equal(createRouteSnapshot({etaMinutes:12,destination:'Home'}).destination, 'Home');
-assert.equal(isRouteActive({etaMinutes: 1}), true);
+test('routeSnapshotStatus detects near arrival', () => {
+  assert.equal(routeSnapshotStatus({ etaMinutes: 4, distanceKm: 2 }), 'near-arrival');
+});
+
+test('routeSnapshotStatus handles incomplete snapshots', () => {
+  assert.equal(routeSnapshotStatus({ etaMinutes: 12 }), 'incomplete');
 });

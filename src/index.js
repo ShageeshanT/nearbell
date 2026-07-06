@@ -94,3 +94,4 @@ export * from './tripSummary.js';
 export * from './alertCooldown.js';
 export * from './gpsDrift.js';
 export * from './notificationTone.js';
+export * from './routeSnapshot.js';

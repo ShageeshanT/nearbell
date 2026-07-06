@@ -1,2 +1,7 @@
-export function createRouteSnapshot({ etaMinutes, distanceMeters = 0, destination = 'Unknown destination', capturedAt = Date.now() }) { return { etaMinutes: Number(etaMinutes), distanceMeters: Number(distanceMeters), destination, capturedAt }; }
-export function isRouteActive(snapshot) { return Boolean(snapshot && Number.isFinite(snapshot.etaMinutes) && snapshot.etaMinutes > 0); }
+export function routeSnapshotStatus({ etaMinutes, distanceKm } = {}) {
+  const eta = Number(etaMinutes);
+  const distance = Number(distanceKm);
+  if (!Number.isFinite(eta) || !Number.isFinite(distance)) return 'incomplete';
+  if (eta <= 5 || distance <= 1) return 'near-arrival';
+  return 'tracking';
+}

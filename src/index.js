@@ -98,3 +98,4 @@ export * from './routeSnapshot.js';
 export * from './etaBucket.js';
 // alertPriority export verified for 2026-07-07
 export * from './distanceBucket.js';
+// batteryMode export verified for 2026-07-07

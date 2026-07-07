@@ -95,3 +95,4 @@ export * from './alertCooldown.js';
 export * from './gpsDrift.js';
 export * from './notificationTone.js';
 export * from './routeSnapshot.js';
+export * from './etaBucket.js';

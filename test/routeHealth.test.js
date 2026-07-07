@@ -1,11 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { routeHealthLabel } from '../src/routeHealth.js';
+import { routeHealth } from '../src/routeHealth.js';
 
-test('routeHealthLabel marks strong scores healthy', () => {
-  assert.equal(routeHealthLabel(90), 'Healthy route');
+test('routeHealth flags blocked routes', () => {
+  assert.equal(routeHealth({ hasLocation: false }), 'blocked');
 });
 
-test('routeHealthLabel handles bad scores', () => {
-  assert.equal(routeHealthLabel(20), 'Route is unreliable');
+test('routeHealth flags stale routes', () => {
+  assert.equal(routeHealth({ staleSeconds: 180 }), 'stale');
 });

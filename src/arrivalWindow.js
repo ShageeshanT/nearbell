@@ -1,3 +1,7 @@
-export function arrivalWindowLabel(minutes) {
-  return minutes <= 0 ? "arriving now" : minutes <= 5 ? "almost there" : minutes <= 15 ? "getting close" : "en route";
+export function arrivalWindow(minutes = 0) {
+  const value = Number(minutes);
+  if (!Number.isFinite(value)) return 'unknown';
+  if (value <= 2) return 'now';
+  if (value <= 10) return 'soon';
+  return 'later';
 }

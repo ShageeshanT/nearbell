@@ -1,7 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { arrivalWindowLabel } from '../src/arrivalWindow.js';
+import { arrivalWindow } from '../src/arrivalWindow.js';
 
-test('add arrival window labels', () => {
-  assert.deepEqual(arrivalWindowLabel(10), "getting close");
+test('arrivalWindow marks now window', () => {
+  assert.equal(arrivalWindow(1), 'now');
+});
+
+test('arrivalWindow handles later arrivals', () => {
+  assert.equal(arrivalWindow(18), 'later');
 });

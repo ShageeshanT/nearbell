@@ -108,3 +108,4 @@ export * from './routeRefresh.js';
 export * from './alertCopy.js';
 export * from './routeMode.js';
 export * from './storageKey.js';
+// permissionState export verified for 2026-07-08

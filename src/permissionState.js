@@ -1,3 +1,5 @@
-export function permissionBadge(permission) {
-  return permission === "granted" ? "Notifications on" : permission === "denied" ? "Notifications blocked" : "Notifications not set";
+export function permissionStateLabel(state = 'prompt') {
+  if (state === 'granted') return 'enabled';
+  if (state === 'denied') return 'blocked';
+  return 'needs-permission';
 }

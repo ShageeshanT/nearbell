@@ -114,3 +114,4 @@ export * from './locationStaleness.js';
 export * from './installHint.js';
 export * from './destinationFallback.js';
 export * from './buildTarget.js';
+export * from './demoStep.js';

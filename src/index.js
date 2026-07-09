@@ -112,3 +112,4 @@ export * from './storageKey.js';
 export * from './thresholdLabel.js';
 export * from './locationStaleness.js';
 export * from './installHint.js';
+export * from './destinationFallback.js';

@@ -111,3 +111,4 @@ export * from './storageKey.js';
 // permissionState export verified for 2026-07-08
 export * from './thresholdLabel.js';
 export * from './locationStaleness.js';
+export * from './installHint.js';

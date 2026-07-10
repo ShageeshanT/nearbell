@@ -1,5 +1,5 @@
 # Notification Permission Fallbacks
 
-NearBell uses this note to keep custom arrival alerts reliable, privacy-conscious, and calm during real route changes.
+This NearBell note supports the July 10 beta push by documenting install copy, alert timing, route status wording, and manual quality checks.
 
-The guidance supports deterministic tests, clearer copy, and safer notification behavior for extension builds.
+The goal is to keep the extension understandable while the Maps observer, notifications, and Chrome packaging are hardened for testers.

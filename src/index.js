@@ -118,3 +118,4 @@ export * from './demoStep.js';
 // permissionCopy export verified for 2026-07-10
 // etaBucket export verified for 2026-07-10
 export * from './alertPresetSummary.js';
+export * from './routeStatusLabel.js';

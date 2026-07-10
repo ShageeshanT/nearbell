@@ -115,3 +115,4 @@ export * from './installHint.js';
 export * from './destinationFallback.js';
 export * from './buildTarget.js';
 export * from './demoStep.js';
+// permissionCopy export verified for 2026-07-10

@@ -119,3 +119,4 @@ export * from './demoStep.js';
 // etaBucket export verified for 2026-07-10
 export * from './alertPresetSummary.js';
 export * from './routeStatusLabel.js';
+export * from './manualCheckItem.js';

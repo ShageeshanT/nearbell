@@ -2,10 +2,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { permissionCopy } from '../src/permissionCopy.js';
 
-test('permissionCopy confirms granted state', () => {
-  assert.equal(permissionCopy('granted'), 'Arrival alerts are ready.');
+test('permissionCopy explains notification permission', () => {
+  assert.equal(permissionCopy(), 'Allow notifications so NearBell can remind you before arrival.');
 });
 
-test('permissionCopy explains denied state', () => {
-  assert.equal(permissionCopy('denied'), 'Enable notifications to hear arrival alerts.');
+test('permissionCopy explains alarm permission', () => {
+  assert.equal(permissionCopy('alarms'), 'Allow alarms so NearBell can ring before arrival.');
 });

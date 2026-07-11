@@ -123,3 +123,4 @@ export * from './manualCheckItem.js';
 export * from './alertToneLabel.js';
 export * from './testerTaskLabel.js';
 export * from './storeAssetName.js';
+export * from './feedbackTag.js';

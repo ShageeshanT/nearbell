@@ -120,3 +120,4 @@ export * from './demoStep.js';
 export * from './alertPresetSummary.js';
 export * from './routeStatusLabel.js';
 export * from './manualCheckItem.js';
+export * from './alertToneLabel.js';

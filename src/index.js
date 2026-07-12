@@ -127,3 +127,4 @@ export * from './feedbackTag.js';
 export * from './etaTextParser.js';
 export * from './alertDueLabel.js';
 export * from './observerHealthLabel.js';
+export * from './betaReadinessScore.js';

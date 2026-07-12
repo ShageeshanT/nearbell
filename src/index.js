@@ -126,3 +126,4 @@ export * from './storeAssetName.js';
 export * from './feedbackTag.js';
 export * from './etaTextParser.js';
 export * from './alertDueLabel.js';
+export * from './observerHealthLabel.js';

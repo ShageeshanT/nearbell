@@ -129,3 +129,4 @@ export * from './alertDueLabel.js';
 export * from './observerHealthLabel.js';
 export * from './betaReadinessScore.js';
 export * from './routeRefreshHint.js';
+export * from './notificationRetryLabel.js';

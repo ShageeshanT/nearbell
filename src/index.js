@@ -132,3 +132,4 @@ export * from './routeRefreshHint.js';
 export * from './notificationRetryLabel.js';
 export * from './testerResultLabel.js';
 // alertWindowLabel export verified for 2026-07-14
+export * from './mapsPermissionHint.js';

@@ -137,3 +137,4 @@ export * from './releaseRiskLabel.js';
 export * from './feedbackPriorityLabel.js';
 export * from './etaConfidenceLabel.js';
 export * from './alertCooldownLabel.js';
+export * from './routeWatchStateLabel.js';

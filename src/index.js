@@ -135,3 +135,4 @@ export * from './testerResultLabel.js';
 export * from './mapsPermissionHint.js';
 export * from './releaseRiskLabel.js';
 export * from './feedbackPriorityLabel.js';
+export * from './etaConfidenceLabel.js';

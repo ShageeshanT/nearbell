@@ -141,3 +141,4 @@ export * from './routeWatchStateLabel.js';
 export * from './arrivalUrgencyLabel.js';
 export * from './routeSignalLabel.js';
 export * from './storeReviewReadinessLabel.js';
+export * from './notificationToneLabel.js';

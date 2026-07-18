@@ -138,3 +138,4 @@ export * from './feedbackPriorityLabel.js';
 export * from './etaConfidenceLabel.js';
 export * from './alertCooldownLabel.js';
 export * from './routeWatchStateLabel.js';
+export * from './arrivalUrgencyLabel.js';

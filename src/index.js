@@ -139,3 +139,4 @@ export * from './etaConfidenceLabel.js';
 export * from './alertCooldownLabel.js';
 export * from './routeWatchStateLabel.js';
 export * from './arrivalUrgencyLabel.js';
+export * from './routeSignalLabel.js';

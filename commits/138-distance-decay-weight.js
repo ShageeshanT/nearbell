@@ -1,0 +1,26 @@
+// Utility 138: distance-decay-weight
+// Small NearBell helper for arrival alerts and route status handling.
+
+export function distanceDecayWeight(input = {}) {
+  const now = Number(input.now ?? Date.now());
+  const etaMinutes = Math.max(0, Number(input.etaMinutes ?? 0));
+  const distanceMeters = Math.max(0, Number(input.distanceMeters ?? 0));
+  const lastAlertAt = Number(input.lastAlertAt ?? 0);
+  const quiet = Boolean(input.quiet);
+
+  const minutesSinceAlert = lastAlertAt ? Math.floor((now - lastAlertAt) / 60000) : Infinity;
+  const closeEnough = etaMinutes <= 8 || distanceMeters <= 900;
+  const shouldNotify = closeEnough && !quiet && minutesSinceAlert >= 3;
+
+  return {
+    key: 'distance-decay-weight',
+    etaMinutes,
+    distanceMeters,
+    closeEnough,
+    minutesSinceAlert,
+    shouldNotify,
+    label: shouldNotify ? 'arrival-soon' : 'watching-route',
+  };
+}
+
+export default distanceDecayWeight;

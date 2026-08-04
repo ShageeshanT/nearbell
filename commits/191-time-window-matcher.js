@@ -1,0 +1,1 @@
+export function inTimeWindow(minuteOfDay, startMinute, endMinute) { const value = Number(minuteOfDay); return startMinute <= endMinute ? value >= startMinute && value <= endMinute : value >= startMinute || value <= endMinute; }

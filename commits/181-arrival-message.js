@@ -1,0 +1,1 @@
+export function arrivalMessage(destination = 'your destination', etaMinutes = 0) { return Number(etaMinutes) <= 1 ? `Near ${destination} now.` : `Heading to ${destination}, about ${Math.round(etaMinutes)} minutes away.`; }

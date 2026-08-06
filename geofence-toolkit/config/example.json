@@ -1,0 +1,16 @@
+{
+  "geofences": [
+    {
+      "name": "home",
+      "center": { "lat": 6.9271, "lng": 79.8612 },
+      "radiusMeters": 150,
+      "alertLeadSeconds": 300
+    },
+    {
+      "name": "office",
+      "center": { "lat": 6.9147, "lng": 79.8730 },
+      "radiusMeters": 100,
+      "alertLeadSeconds": 240
+    }
+  ]
+}

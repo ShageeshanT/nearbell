@@ -8,6 +8,7 @@ const { shouldTriggerAlert } = require('./alertTrigger');
 const { loadGeofencesFromFile, loadGeofencesFromString } = require('./configLoader');
 const { validateGeofence } = require('./validate');
 const { createLogger } = require('./logger');
+const { evaluateAll, nearestGeofence, activeAlerts } = require('./multiGeofence');
 
 module.exports = {
   haversineDistance,
@@ -23,4 +24,7 @@ module.exports = {
   loadGeofencesFromString,
   validateGeofence,
   createLogger,
+  evaluateAll,
+  nearestGeofence,
+  activeAlerts,
 };

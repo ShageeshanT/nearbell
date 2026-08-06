@@ -1,0 +1,14 @@
+{
+  "name": "geofence-toolkit",
+  "version": "0.1.0",
+  "description": "Small zero-dependency toolkit for geofence-based arrival alerts: distance calculations, ETA estimation, and alert triggering logic used by nearbell.",
+  "main": "src/index.js",
+  "bin": {
+    "geofence-toolkit": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "license": "MIT",
+  "author": "ShageeshanT"
+}
